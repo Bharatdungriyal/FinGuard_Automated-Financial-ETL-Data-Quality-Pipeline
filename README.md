@@ -51,7 +51,7 @@ The entire workflow is **scheduled using Windows Task Scheduler**, ensuring zero
 │
 ├── Financial_data_anomalies_Check.py   # Phase 1: Extraction, cleaning, and data quality checks
 ├── automate.ipynb                     # Phase 2: Incremental monthly load (no redundancy)
-├── sql_scripts/                       # SQL schemas and control tables
+├── sql_scripts/                       # SQL scripts to create tables
 ├── send_email.py                      # Automated monthly email notifications
 ├── DQ_ISSUE.csv                       # Attached CSV containing data quality issues
 └── README.md                          # Project documentation
