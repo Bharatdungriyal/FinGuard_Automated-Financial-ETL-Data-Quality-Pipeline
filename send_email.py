@@ -6,7 +6,7 @@ import os
 # EMAIL CONFIG
 # ==========================
 SENDER_EMAIL = "bharat31072007@gmail.com"
-APP_PASSWORD = "idgz gtdz ngre xdci"   # Gmail App Password (16 chars)
+APP_PASSWORD = "XXXX YYYY UUUU NNNN"   # Gmail App Password (16 chars) this is dummy password
 RECEIVER_EMAIL = "sharma.bharat0703@gmail.com"
 
 # ==========================
@@ -52,4 +52,5 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
     smtp.send_message(msg)
 
 print("✅ Email sent successfully with CSV attachment!")
+
  
